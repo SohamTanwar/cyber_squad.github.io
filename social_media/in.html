@@ -1,0 +1,180 @@
+<head>
+    <title>Social media</title>
+
+    <style>
+        body {
+            background: linear-gradient(110deg, rgba(0, 0, 0, 1) 35%, rgba(22, 109, 59, 1) 100%);
+        }
+
+
+        :before,
+        :after {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+        }
+
+        h1,
+        h2 {
+
+            text-align: center;
+            line-height: 20px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: rgba(255, 255, 255, .8);
+        }
+
+        h2 {
+            font-size: 40px;
+            color: rgba(255, 255, 255, .5);
+        }
+
+        .social-container {
+            margin: 0 auto;
+            padding: 40px 0;
+            width: 200px;
+            height: 100%;
+
+        }
+
+
+        #social-section {
+            padding: 60px 0;
+            -webkit-transition: all .2s ease-out;
+            -moz-transition: all .2s ease-out;
+            -ms-transition: all .2s ease-out;
+            -o-transition: all .2s ease-out;
+            transition: all .2s ease-out;
+        }
+
+        .social-container a {
+            display: block;
+            width: 250px;
+            line-height: 100px;
+            border: 2px solid rgba(255, 255, 255, .5);
+            color: rgba(255, 255, 255, 1);
+            margin: 20px 0;
+            text-decoration: none;
+            text-align: center;
+            font-size: larger;
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        .social-container a::before {
+            background-color: transparent;
+            bottom: 0;
+            content: '';
+            left: 0;
+            position: fixed;
+            right: 0;
+            top: 0;
+            z-index: -1;
+        }
+
+        .social-container a i {
+            margin-top: 15px;
+        }
+
+        .social-container a:hover {
+            border: 1px solid rgba(255, 255, 255, .3);
+            color: rgba(255, 255, 255, .6);
+        }
+
+
+        .linkedin:hover::before {
+            background: rgb(4, 97, 159);
+            background: linear-gradient(10deg, rgba(4, 97, 159, 1) 35%, rgba(0, 0, 0, 1) 70%);
+        }
+
+        .facebook:hover::before {
+            background: rgb(90, 88, 90);
+            background: linear-gradient(50deg, rgba(90, 88, 90, 1) 35%, rgba(9, 9, 71, 1) 64%);
+        }
+
+
+
+        .instagram:hover::before {
+            background: rgb(232, 67, 147);
+            background: linear-gradient(110deg, rgba(232, 67, 147, 0.6) 35%, rgba(0, 0, 0, 1) 64%);
+
+        }
+
+        .social-container a,
+        .social-container a::before {
+            -webkit-transition: all .2s ease-in;
+            -moz-transition: all .2s ease-in;
+            -ms-transition: all .2s ease-in;
+            -o-transition: all .2s ease-in;
+            transition: all .2s ease-in;
+        }
+
+        .logo {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+
+        h1,
+        .logo {
+            display: inline-block;
+
+        }
+
+        .headd {
+            display: flex;
+            justify-content: center;
+        }
+
+        .insta {
+            height: 35px;
+            width: 35px;
+            margin-top: 30px;
+            margin-right: 10px;
+
+
+
+
+        }
+    </style>
+</head>
+
+<body id="social-section">
+    <img src="logo.jpeg" alt="Logo" class="logo">
+
+    <div class="headd">
+
+        <h1>Click to visit our social media handle</h1>
+    </div>
+    <h2>Do like and share</h2>
+    <div class="social-container">
+
+        <div class="instagramm">
+
+            <a href="https://www.instagram.com/mru.cybersquad?igsh=MXhtcW94a3poZWw2dw==" class="instagram">
+                <img src="instagram.webp" alt="Logo" class="insta" id="insta">
+                <i class="fa fa-instagram"></i>Instagram</a>
+
+        </div>
+
+        <div class="instagramm">
+            <a href="https://www.linkedin.com/in/cyber-squad-1b167b2ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                class="linkedin">
+                <img src="linkedin.png" alt="" class="insta">
+                <i class="fa fa-linkedin"></i>LinkedIn</a>
+        </div>
+
+        <a href="https://www.facebook.com/share/QSpQMV2Q3EmPaT4k/?mibextid=qi2Omg" class="facebook"><img
+                src="facebook.png" alt="" class="insta"><i class="fa fa-facebook"></i>Facebook</a>
+
+
+
+    </div>
+</body>
