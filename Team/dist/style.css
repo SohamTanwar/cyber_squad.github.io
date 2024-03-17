@@ -2,6 +2,11 @@ body {
   background-color: black;
 }
 
+img {
+  height: 500px;
+  width: auto;
+}
+
 .our-team .team-row {
   margin-left: -40px;
   margin-right: -40px;
@@ -111,3 +116,4 @@ span {
   color: white;
   padding: 10px;
 }
+

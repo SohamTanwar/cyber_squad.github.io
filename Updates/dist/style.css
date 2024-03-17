@@ -121,3 +121,7 @@ body {
     left: 45px;
   }
 }
+
+#complete{
+  background-color: rgb(101, 236, 101);
+}
