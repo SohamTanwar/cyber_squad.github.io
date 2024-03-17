@@ -1,6 +1,6 @@
-body {
-  background-color: black;
-}
+
+/* Our Team
+-------------------------------------------------------*/
 
 .our-team .team-row {
   margin-left: -40px;
@@ -31,12 +31,11 @@ body {
 }
 
 .team-title {
-  color: #fff;
   margin: 30px 0 7px;
 }
 
 .overlay {
-  background-color: rgba(20, 20, 20, .7);
+  background-color: rgba(20,20,20,.7);
   position: absolute;
   top: 0;
   width: 100%;
@@ -99,7 +98,7 @@ body {
 }
 
 .team-details .socials i {
-  color: #fff;
+	color: #fff;
 }
 
 .socials a:hover i {
@@ -107,7 +106,3 @@ body {
   background-color: #355c7d;
 }
 
-span {
-  color: white;
-  padding: 10px;
-}
