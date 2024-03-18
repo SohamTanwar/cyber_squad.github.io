@@ -317,3 +317,10 @@ ul {
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide (mobile) */
+  .container {
+    padding: 20px;
+  }
+}
