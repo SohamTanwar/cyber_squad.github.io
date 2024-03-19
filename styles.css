@@ -56,6 +56,10 @@ nav .logo {
   width: 80px;
 }
 
+.header-background {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 .headerr li {
   list-style: none;
   display: inline-block;
@@ -64,7 +68,7 @@ nav .logo {
 
 .headerr a {
   text-decoration: none;
-  color: #fff;
+  color: #00FF00;
   font-size: 17px;
 }
 
@@ -75,7 +79,7 @@ nav .logo {
 
 .content h1 {
   font-size: 160px;
-  color: lime;
+  color: #00FF00;
   font-weight: 600;
   font-family: "Space Mono", monospace;
 }
@@ -83,12 +87,13 @@ nav .logo {
 .content a {
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: #00FF00;
   font-size: 24px;
   border: 2px solid #fff;
   padding: 14px 70px;
   border-radius: 50px;
   margin-top: 20px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2));
 }
 
 .back-video {
@@ -118,7 +123,7 @@ ul {
 }
 
 .footer-section {
-  background: black;
+  background: #000000;
   position: relative;
 }
 
@@ -127,7 +132,7 @@ ul {
 }
 
 .single-cta i {
-  color: #ff5e14;
+  color: lime;
   font-size: 30px;
   float: left;
   margin-top: 8px;
@@ -229,7 +234,7 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #ff5e14;
+  background: lime;
 }
 
 .footer-widget ul li {
@@ -240,7 +245,7 @@ ul {
 }
 
 .footer-widget ul li a:hover {
-  color: #ff5e14;
+  color: lime;
 }
 
 .footer-widget ul li a {
@@ -264,9 +269,9 @@ ul {
 .subscribe-form button {
   position: absolute;
   right: 0;
-  background: #ff5e14;
+  background: lime;
   padding: 13px 20px;
-  border: 1px solid #ff5e14;
+  border: 1px solid lime;
   top: 0;
 }
 
@@ -288,7 +293,7 @@ ul {
 }
 
 .copyright-text p a {
-  color: #ff5e14;
+  color: lime;
 }
 
 .footer-menu li {
@@ -297,30 +302,10 @@ ul {
 }
 
 .footer-menu li:hover a {
-  color: #ff5e14;
+  color: lime;
 }
 
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
-}
-
-@media only screen and (min-width: 1000px) {
-  h1 {
-    font-size: 80px;
-  }
-}
-
-/* If the screen size is 600px or less, set the font-size of <div> to 30px */
-@media only screen and (max-width: 500px) {
-  h1 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  /* Styles for screens up to 768px wide (mobile) */
-  .container {
-    padding: 20px;
-  }
 }

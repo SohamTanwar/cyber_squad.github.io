@@ -123,6 +123,11 @@ ul {
     display: none;
 }
 
+.text-objective {
+    color: white;
+    margin-left: 10px;
+}
+
 @keyframes moving {
     from {
         transform: translateX(-50px);

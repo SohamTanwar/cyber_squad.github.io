@@ -23,6 +23,6 @@ document.querySelector("h1").onmouseover = event => {
       clearInterval(interval);
     }
     
-    iteration += 1 / 5;
+    iteration += 1 / 2;
   }, 30);
 }
