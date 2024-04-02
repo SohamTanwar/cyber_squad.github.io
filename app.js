@@ -26,3 +26,15 @@ document.querySelector("h1").onmouseover = event => {
     iteration += 1 / 2;
   }, 30);
 }
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const mobileMenuIcon = document.querySelector(".mobile-menu-icon");
+    const menuContainer = document.querySelector(".menu-container");
+
+    mobileMenuIcon.addEventListener("click", function() {
+        menuContainer.classList.toggle("active");
+    });
+});
+
+
