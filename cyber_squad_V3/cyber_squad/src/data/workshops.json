@@ -1,0 +1,32 @@
+{
+    "workshops": [
+      {
+        "topic": "Cyber Security Basics",
+        "speakers": "Soham Tanwar, Tabish",
+        "date": "22-02-2024",
+        "location": "L-Block LF03",
+        "image": "https://example.com/cybersecurity_fundamentals.jpg"
+      },
+      {
+        "topic": "Basics of Linux",
+        "speakers": "Samarth Khandelwal, Soham Tanwar",
+        "date": "14-03-2024",
+        "location": "L-Block Lab 06",
+        "image": "https://example.com/advanced_threat_detection.jpg"
+      },
+      {
+        "topic": "OSINT",
+        "speakers": "Soham Tanwar, Praveen Kumar Sharma",
+        "date": "28-03-2024",
+        "location": "L-Block Lab 06",
+        "image": "https://example.com/cyber_defense_strategies.jpg"
+      },
+      {
+        "topic": "Basics of Networking",
+        "speakers": "Deekshith, Praveen KUmar Sharma",
+        "date": false,
+        "location": "L-Block LF03",
+        "image": "https://example.com/blockchain_security.jpg"
+      }
+    ]
+}
